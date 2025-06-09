@@ -1,0 +1,35 @@
+{
+  "name": "veramo-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@veramo/cli": "^6.0.0",
+    "@veramo/core": "^6.0.0",
+    "@veramo/credential-w3c": "^6.0.0",
+    "@veramo/data-store": "^6.0.0",
+    "@veramo/did-manager": "^6.0.0",
+    "@veramo/did-provider-ethr": "^6.0.0",
+    "@veramo/did-provider-web": "^6.0.0",
+    "@veramo/did-resolver": "^6.0.0",
+    "@veramo/key-manager": "^6.0.0",
+    "@veramo/kms-local": "^6.0.0",
+    "ethr-did-resolver": "^11.0.3",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "tsx": "^4.19.4",
+    "typeorm": "^0.3.24",
+    "web-did-resolver": "^2.0.30"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "private": true,
+  "author": "yukuro <mail@unknownsky.net>",
+  "license": "MIT"
+}
